@@ -1,0 +1,58 @@
+body{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #323946;
+}
+
+/* navbar css starts here  */
+.bg-light{
+    background-color: #0ef!important;
+}
+
+.navbar-brand{
+    font-family: 'Sansita Swashed', cursive;
+    font-size: 1.5rem;
+    color: #1f242d!important;
+}
+
+.nav-link{
+    color: #1f242d!important;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+.nav-link:hover{
+    background-color: #323946;
+    border-radius: 8px;
+    text-decoration: none;
+}
+/* navbar css ends here  */
+
+.my-info{
+    padding: 2rem 5rem;
+    float: inline-start;
+}
+
+.my-button{
+    padding: 3rem 5rem;
+    float:inline-end;
+}
+
+.btn-info{
+    padding: 1rem 1.2rem;
+    background-color: #0ef!important;
+    color: #1f242d!important;
+    margin-left: 5px;
+    border-radius: 8px;
+    padding: 0.75rem;
+    transition: all 0.3s;
+}
+
+.btn-info:hover{
+    background-color: #323946!important;
+}
+.table-info{
+  background-color: #000000
+}
+
+.table-danger, .table-danger>td, .table-danger>th {
+    background-color: #0ef;
+}
